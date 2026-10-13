@@ -1,0 +1,31 @@
+# Reproducible output directories declared by the three Keil projects
+/Sleep_mode/SLEEP_MODE/MDK-ARM/SLEEP_MODE/
+/Stop_mode/Stop_Mode/MDK-ARM/stopmode/
+/Standby_mode/Standby_Mode/MDK-ARM/stanby_mode/
+
+# Keil user interface state and generated assembly listings
+*.uvguix.*
+/Sleep_mode/SLEEP_MODE/MDK-ARM/*.lst
+/Stop_mode/Stop_Mode/MDK-ARM/*.lst
+/Standby_mode/Standby_Mode/MDK-ARM/*.lst
+
+# Temporary editor and operating system files
+*.tmp
+*.swp
+*.swo
+~$*
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local environment files and private keys
+.env
+.env.*
+!.env.example
+!.env.sample
+*.key
+*.p12
+*.pfx
+
+# Keep project/board configuration, bundled Drivers and RTE, reports,
+# extracted images, and evidence. Do not ignore PDFs or firmware globally.
